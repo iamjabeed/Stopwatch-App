@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  /* background: #7a02ee; */
+  /* background: linear-gradient(to bottom right, #7a02ee, #eb7535); */
+  background: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
+}
+.main-container {
+  background: linear-gradient(
+    to top right,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.5)
+  );
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 10px solid rgba(216, 211, 211, 0.25);
+  padding: 3rem;
+  border-radius: 5%;
+
+}
+.time-container {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #1f1f1f;
+}
+.ms,
+i {
+  font-size: 1rem;
+}
+i {
+  text-transform: capitalize;
+  margin-right: 10px;
+}
+.colon {
+  opacity: 0.7;
+  font-size: 1rem;
+}
+h2 {
+  font-size: 2rem;
+  color:  rgb(0, 0, 0);
+  position: absolute;
+  top: 10%;
+  text-transform: capitalize;
+}
+.btns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+}
+button {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #fff;
+  /* background: linear-gradient(90deg, #0066cc 0%, #c500cc 100%); */
+  background-color: #4158d0;
+  padding: 8px 20px;
+  border: none;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+  transform: translateY(0);
+  cursor: pointer;
+}
+button:hover {
+  transform: translateY(-6px);
+}
+footer {
+  position: absolute;
+  bottom: 1rem;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+  @media  (max-width: 720px) {
+    h2 {
+        font-size: 1.5rem;
+      }
+      .main-container {
+        padding: 2rem;
+      }
+      .time-container {
+        font-size: 2rem;
+      }
+      .ms,
+      i {
+        font-size: 1rem;
+      }
+      i {
+        margin-right: 8px;
+      }
+      .colon {
+        opacity: 0.7;
+        font-size: 1rem;
+      }
+      button {  
+        font-size: 8px;
+        padding: 6px 14px;
+        border-radius: 5px;
+      }
+      button:hover {
+        transform: translateY(-4px);
+      }
+  }
+
+  @media  (max-width: 389px) {
+    h2 {
+        font-size: 1.25rem;
+      }
+      .main-container {
+        padding: 1rem;
+      }
+      .time-container {
+        font-size: 1.5rem;
+      }
+      .ms,
+      i {
+        font-size: .75rem;
+      }
+      i {
+        margin-right: 6px;
+      }
+      .colon {
+        font-size: .75rem;
+      }
+      button {  
+        font-size: 6px;
+        padding: 6px 12px;
+      }
+  }
