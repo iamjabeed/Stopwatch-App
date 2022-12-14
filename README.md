@@ -1,7 +1,7 @@
 ## Hello there, Welcome!
 ### project name:Stop Watch App
 ### project Description
-In this project i have made fully mobile responsive ui design of rode.com website with pure tailwind css  and i have learnd many thing while making these clone esspecially i mastered different features of images and how to deal perferctly. 
+In this project i have made fully mobile responsive stop watch with vanilla Js, HTML, CSS!
 ## [Live Link](https://stopwatchhhhhhh.netlify.app/)
 ## Technologies used:<br>
 HTML <br>
